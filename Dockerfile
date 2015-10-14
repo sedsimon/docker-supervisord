@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 
+# thanks also to https://github.com/Krijger/docker-cookbooks
 MAINTAINER Simon Stanlake "https://github.com/sedsimon"
 
 # make sure the package repository is up to date
