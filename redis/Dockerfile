@@ -6,7 +6,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y redis-se
 
 ADD redis.sv.conf /etc/supervisor/conf.d/
 
-EXPOSE 6379:6379
+EXPOSE 6379
 
 CMD ["supervisord","-c","/etc/supervisor.conf"]
 
