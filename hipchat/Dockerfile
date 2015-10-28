@@ -25,5 +25,7 @@ RUN npm install
 ADD init.sh /tmp/init.sh
 RUN chmod 700 /tmp/init.sh
 
+ENV REDIS_DEV_URL redis://redis:6379
+
 CMD ["/tmp/init.sh"]
 

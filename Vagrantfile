@@ -70,5 +70,5 @@ Vagrant.configure(2) do |config|
   # SHELL
 
   config.vm.provision "docker"
-
+  config.vm.provision "docker_compose"
 end

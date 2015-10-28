@@ -1,0 +1,6 @@
+hipchat-addon:
+    build: .
+    links:
+        - redis
+redis:
+    image: sedsimon/redis
